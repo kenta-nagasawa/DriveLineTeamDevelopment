@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="check.css" type="text/css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class = "head_title">JavaTeamDevelopment</div>
+    </header>
+    <!-- 内容 -->
+    <div class ="main">
+        <!-- 「自己紹介の内容を記入してください」と表示する -->
+        <h1>
+            <a>自己紹介の内容を記入してください</a>
+        </h1>
+        <!-- 名前、フリガナ、性別、趣味、一言を表示する-->
+        <h2>
+            <ul>
+                <li>
+                    <a>名前</a>
+                    <!-- 「必須 」項目を表示する-->
+                    <div class = "box_sub"></div>
+                    <!-- 入力欄を追加する -->
+                    <b>
+                        <input type = "text" id = "name" name = "name">
+                    </b>
+                    
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a>フリガナ</a>
+                     <!-- 「必須 」項目を表示する-->
+                    <div class = "box_sub"></div>
+                     <!-- 入力欄を追加する -->
+                    <b>
+                        <input type = "text"  id = "name" name = "name_sub">
+                    </b>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a>性別</a>
+                     <!-- 「必須 」の分の余白を調整する-->
+                    <div class = "box_sub"></div>
+                    <!-- 男性、女性を選択できるようにする -->
+                    <div class = "checkbox">
+                        <b id = "checkbox">
+                            <input type="radio" name="gender" value="male">男性
+                        </b>
+                        <b id = "checkbox">
+                            <input type="radio" name="gender" value="female">女性
+                        </b>
+                    <div>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a>趣味</a>
+                     <!-- 「必須 」項目を表示する-->
+                    <div class = "box_sub"></div>
+                    <!-- 趣味を表示し、チェックボックスで複数選べるようにする -->
+                    <div class = "checkbox">
+                        <b id = "checkbox">
+                            <input type="checkbox" name="hobby" value="sports">スポーツ
+                        </b>
+                        <b id = "checkbox">
+                            <input type="checkbox" name="hobby" value="game">ゲーム
+                        </b>
+                        <b id = "checkbox">
+                            <input type="checkbox" name="hobby" value="comics">漫画
+                        </b>
+                        <b id = "checkbox">
+                            <input type="checkbox" name="hobby" value="animation">アニメ
+                        </b>
+                        <b id = "checkbox">
+                            <input type="checkbox" name="hobby" value="movie">映画
+                        </b>
+                        <b id = "checkbox">
+                            <input type="checkbox" name="hobby" value="cooking">料理
+                        </b>
+                        <b id = "checkbox">
+                            <input type="checkbox" name="hobby" value="drive">ドライブ
+                        </b>
+                        <b id = "checkbox">
+                            <input type="checkbox" name="hobby" value="tv">テレビ
+                        </b>
+                        <b id = "checkbox">
+                            <input type="checkbox" name="hobby" value="karaoke">カラオケ
+                        </b>
+                    </div>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a>一言</a>
+                    <!-- 「必須 」の分の余白を調整する-->
+                    <div class = "box_sub"></div>
+                     <!-- 入力欄を追加する -->
+                    <b>
+                        <textarea cols="" rows="" id = "comment" wrap=""></textarea>
+                    </b>
+                </li>
+            </ul>
+        </h2>
+        <!-- 戻る、次へのボタンを表示する -->
+        <h3>
+            <div class = "button">
+                <button type = "button" id = "button">戻る</button>
+                <button type = "button" id = "button">次へ</button>
+            </div>
+        </h3>
+    </div>
+</body>
+</html>

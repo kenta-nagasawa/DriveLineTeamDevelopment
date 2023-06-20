@@ -1,0 +1,114 @@
+/* ヘッダーの文字を右寄せ上下中央にし、バックグラウンドカラーをgrayにする*/
+header{
+    background-color: gray;
+    height: 90px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+/* タイトルの右余白を110px、テキストサイズを30pxにし、fontを太くする */
+.head_title{
+    margin-right: 110px;
+    font-size: 20px;  
+    font-weight: bold;
+}
+/* ヘッダー以外 */
+/* h1の上下の外余白を100px50px追加し、中央寄せ、フォントサイズ20px、フォントを細くする */
+h1{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center; 
+    font-size: 20px;
+    font-weight: lighter;
+}
+/* ヘッダーとの間を100px設ける */
+.main{
+    margin-top: 100px;
+}
+/* div */
+h1,h2{
+    width: 900px;
+    margin: auto;
+    padding-right: 0px;
+}
+/* ulを画面の中央に持ってくる */
+ul{
+    display: flex;
+    padding: 0px;
+}
+/* liを外余白10px、子要素を横並びにする */
+li{
+    margin-top: 10px;
+    display: flex;
+    width: 800px;
+    justify-content: flex-end; 
+}
+/* 名前、フリガナ、趣味、性別、一言の位置を調整する */
+.box_sub{
+    width: 50px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center; 
+    margin: 0 5px 0 5px;
+    align-items: center;
+}
+/* 名前、フリガナの入力欄を横600px縦30pxにする */
+#name{
+    width: 600px; 
+    height: 30px;
+    font-size:15px;
+    border: solid 1px #000;
+}
+/* コメント入力欄の大きさを縦150px横600pxにして、入力文字を自動で折り返すようにする */
+#comment{
+    width: 600px; 
+    height: 150px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    font-size:15px;
+}
+/* 名前、フリガナ、性別、趣味、一言の位置を調整する */
+a{
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+}
+/* 性別、趣味の文字の大きさ、太さを設定する */
+b{
+    width: 650px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+/* 趣味の並び替えをし、折り返しをするようにする */
+.checkbox{
+    width:650px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px 0;
+}
+/* 趣味の選択が五個ずつ表示されるようにする */
+#checkbox{
+    width: 20%;
+}
+/* 戻る、次へのボタンの装飾 */
+#button{
+    width: 200px;
+    height: 60px;
+    background-color:cornflowerblue;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 100px;
+    margin-left: 75px;
+}
+/* 戻る、次へのボタンの位置を調整 */
+.button{
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
